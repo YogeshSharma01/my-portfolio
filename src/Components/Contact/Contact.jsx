@@ -32,13 +32,13 @@ export default function Contact() {
             </h1>
             <div className="c-info">
                 <div className="c-info-items">
-                    <img className="c-icon" src="https://thumbs.gfycat.com/CelebratedAlienatedChinesecrocodilelizard-max-1mb.gif" alt="phone-icon"></img> +91 740*****1
+                    <img className="c-icon" src="https://thumbs.gfycat.com/CelebratedAlienatedChinesecrocodilelizard-max-1mb.gif" alt="phone-icon"></img> +91 7407203431
                 </div>
                 <div className="c-info-items">
-                    <img className="c-icon" src="http://homestaybajet.com/webview/images/emailIcon.gif" alt="phone-icon"></img> lucksharma****@*****.com
+                    <img className="c-icon" src="http://homestaybajet.com/webview/images/emailIcon.gif" alt="phone-icon"></img> lucksharma2017@gmail.com
                 </div>
                 <div className="c-info-items">
-                    <img className="c-icon" src="https://media2.giphy.com/media/SYLWGfCZ8SaYUsuacR/giphy.gif?cid=790b7611768409e0e983974f1d2360197691fcc82d0c0007&rid=giphy.gif&ct=s" alt="phone-icon"></img> Haryana
+                    <img className="c-icon" src="https://media2.giphy.com/media/SYLWGfCZ8SaYUsuacR/giphy.gif?cid=790b7611768409e0e983974f1d2360197691fcc82d0c0007&rid=giphy.gif&ct=s" alt="phone-icon"></img>Dharuhera, Haryana, India 🇮🇳
                 </div>
             </div>
             </div>
