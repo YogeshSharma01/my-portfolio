@@ -1,0 +1,6 @@
+.nav-link{
+    transition: 0.1s;
+}
+.ok:hover{
+    color: #F17F3A;
+}

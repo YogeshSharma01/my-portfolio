@@ -1,0 +1,172 @@
+.a{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.a-skill{
+    height: 15vh;
+}
+.a-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+.a-right{
+    flex:0.6;
+}
+.a-card{
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+
+}
+.a-card.bg{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #F17F3A;
+}
+
+a.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Right section of the page */
+.a-title{
+    font-weight: 400;
+    font-size: 60px;
+    color: #F17F3A;
+}
+.a-sub{
+    margin: 20px 0px;
+}
+.a-desc{
+    font-weight: 300;
+}
+.a-link{
+    margin-top: 20px;
+    font-size: 25px;
+    text-shadow: 2px 2px #F17F3A;
+    cursor: pointer;
+}
+
+
+/* About  section  animation  */
+
+.wrapper{
+    margin-top: 2vh;
+    margin-left: 20%;
+}
+
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    /* float: left; */
+    overflow: hidden;
+    margin: 5px 5px;
+    background: white; 
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px #F17F3A;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+    width: 200px;
+
+}
+.wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+}
+.wrapper .button:nth-child(1):hover .icon{
+    background:#EE5335;
+}
+.wrapper .button:nth-child(2):hover .icon{
+    background:#3391D5;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    background:#F3BB44;
+}
+.wrapper .button:nth-child(4):hover .icon{
+    background:#5ED3F3;
+}
+.wrapper .button:nth-child(5):hover .icon{
+    background:#3C823B;
+}
+.wrapper .button:nth-child(6):hover .icon{
+    background:#B6B7BA;
+}
+.wrapper .button:nth-child(7):hover .icon{
+    background:#072A4D;
+}
+.wrapper .button:nth-child(8):hover .icon{
+    background:#F0933D;
+}
+.wrapper .button:nth-child(9):hover .icon{
+    background:#3B2C09;
+}
+.wrapper .button:nth-child(10):hover .icon{
+    background:#ECC4AB;
+}
+.wrapper .button:nth-child(11):hover .icon{
+    background:#378376;
+}
+.wrapper .button:nth-child(12):hover .icon{
+    background:#CA2E2A;
+}
+.wrapper .button .icon i{
+    font-size: 25px;
+    color: black;
+    line-height: 60px;
+}
+.wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    color: rgb(33,97,134);
+}
+
+
+/* Media query for mobile phones */
+
+@media screen and (max-width:480px){
+    .a{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .a-left{
+        width: 100%;
+    }
+    
+    
+    .a-card{
+        height: 30vh;
+        width: 80%;
+    }
+   
+
+    .a-card.bg, .a-link,.a-left {
+        display: none;
+    }
+    .a-right{
+        padding: 20px;
+    }
+    .wrapper {
+        margin-top: -28vh;
+        margin-left: 17%;
+    }
+}
