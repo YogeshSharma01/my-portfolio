@@ -41,5 +41,19 @@ export const Webprojects = [
         link:"https://github.com/YogeshSharma01/INDIA-Covid19-Statewise-Status",
         desc: "It shows the current reports of -Positive confirmed patients of corona in India Statewise, -Death of patients, -Recovery rate of patients, -Last Updated date and time of the reports Statewise."
     },
+    {
+        id: 7,
+        heading: "TextUtils",
+        img : "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/78/f7/b0/78f7b0fa-0d46-203e-993e-4e98b03be62d/source/512x512bb.jpg",
+        link:"https://github.com/YogeshSharma01/TextUtils",
+        desc: "TextUtils is a utility which can be used to manipulate your text the way you want."
+    },
+    {
+        id: 8,
+        heading: "NewsHut",
+        img : "https://i.pinimg.com/originals/4e/b9/45/4eb945eec0590f430da2b6fc4e6d9594.gif",
+        link:"https://github.com/YogeshSharma01/React_News_Application",
+        desc: "The React News Application."
+    },
 
 ]
