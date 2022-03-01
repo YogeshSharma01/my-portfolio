@@ -55,5 +55,19 @@ export const Webprojects = [
         link:"https://github.com/YogeshSharma01/React_News_Application",
         desc: "The React News Application."
     },
+    {
+        id: 9,
+        heading: "ReactRedux",
+        img : "https://i.gifer.com/H0VV.gif",
+        link:"https://github.com/YogeshSharma01/react-redux-bank-app",
+        desc: " + & - operations application using redux store."
+    },
+    {
+        id: 10,
+        heading: "MERN Stack Auth-CRUD app",
+        img : "https://media3.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif",
+        link:"https://github.com/YogeshSharma01/mern-auth-curd",
+        desc: "CRUD Application using MERN Stack and JWT authentication ... one functinaliy is still in progress."
+    },
 
 ]

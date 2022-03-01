@@ -1,12 +1,18 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Name from '../../img/name.png'
-import {Link} from 'react-router-dom';
+import {Link, useLocation} from 'react-router-dom';
 import "./Navbar.css";
 
 export default function Navbar() {
+  let location = useLocation();
+ useEffect(() => {
+    
+  }, [location]);
+  
+
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-">
+      <nav className="navbar navbar-expand-lg navbar-light ">
   <div className="container-fluid">
     <Link className="navbar-brand" to="/">
         <img src={Name} alt="logo"></img>
@@ -17,16 +23,16 @@ export default function Navbar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/"><span className="ok"> Home</span></Link>
+          <Link className={`nav-link ${location.pathname==="/"? "active": ""} `} aria-current="page" to="/"><span className="ok"> Home</span></Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" to="/about"><span className="ok">About</span></Link>
+          <Link className={`nav-link ${location.pathname==="/about"? "active": ""} `} to="/about"><span className="ok">About</span></Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" to="/work"><span className="ok">My Work</span></Link>
+          <Link className={`nav-link ${location.pathname==="/work"? "active": ""} `} to="/work"><span className="ok">My Work</span></Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" to="/contact"><span className="ok">Contact</span></Link>
+          <Link className={`nav-link ${location.pathname==="/contact"? "active": ""} `} to="/contact"><span className="ok">Contact</span></Link>
         </li>
         
         
