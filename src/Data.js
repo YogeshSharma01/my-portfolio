@@ -81,7 +81,7 @@ export const Webprojects = [
         heading: "TODO JS",
         img : "https://static01.nyt.com/images/2020/05/21/reader-center/21burst-to-do-list/21burst-to-do-list-blog480-v2.gif",
         link:"https://github.com/YogeshSharma01/JS-todo-app",
-        desc: "todo application using vanilla JavaScript"
+        desc: "todo-list application using vanilla JavaScript"
     },
 
 ]
