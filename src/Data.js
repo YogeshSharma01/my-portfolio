@@ -69,5 +69,19 @@ export const Webprojects = [
         link:"https://github.com/YogeshSharma01/mern-auth-curd",
         desc: "CRUD Application using MERN Stack and JWT authentication ... one functinaliy is still in progress."
     },
+    {
+        id: 11,
+        heading: "Calculator app",
+        img : "https://i.pinimg.com/originals/7d/95/56/7d95564c160833d13873f91ef36eb39d.gif",
+        link:"https://github.com/YogeshSharma01/calculator",
+        desc: "Calculator using Vanilla JS"
+    },
+    {
+        id: 12,
+        heading: "TODO JS",
+        img : "https://static01.nyt.com/images/2020/05/21/reader-center/21burst-to-do-list/21burst-to-do-list-blog480-v2.gif",
+        link:"https://github.com/YogeshSharma01/JS-todo-app",
+        desc: "todo application using vanilla JavaScript"
+    },
 
 ]
